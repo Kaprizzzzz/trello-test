@@ -1,0 +1,38 @@
+.add-list-form {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+  }
+  
+  .list-title-input {
+    padding: 10px 14px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 117px;
+    width: 200px;
+    font-size: 1em;
+    height: 30px;
+  }
+  
+  .add-list-button, .cancel-button {
+    padding: 10px 18px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    width: 120px;
+    font-size: 1em;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-list-button {
+    background-color: #007bff;
+    color: white;
+}
+
+.cancel-button {
+    background-color: red;
+    color: white;
+}

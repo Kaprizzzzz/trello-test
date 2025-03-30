@@ -1,0 +1,85 @@
+.card {
+    border: 1px solid gray;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+  }
+  
+  .card.dragging {
+    opacity: 0.5;
+  }
+  
+  .card-title {
+    font-size: 1.2em;
+    padding: 5px;
+  }
+  
+  .card-actions {
+    display: flex;
+  }
+  
+  .edit-button,
+  .delete-button {
+    margin-right: 5px;
+  }
+  
+  .delete-button {
+    background-color: #982222;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .edit-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #1e1e1e;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .edit-modal-title {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .edit-input {
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    width: 300px;
+  }
+  
+  .edit-modal-actions {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .save-button,
+  .cancel-button {
+    margin: 0 5px;
+  }
+  
+  .time-ago {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #1e1e1e;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    font-size: 0.8em;
+    z-index: 1;
+  }

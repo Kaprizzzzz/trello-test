@@ -1,0 +1,37 @@
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+  }
+  
+  .sort-buttons {
+    display: flex;
+  }
+  
+  .sort-button,
+  .add-list-button {
+    padding: 8px 16px;
+    font-size: 1em;
+  }
+  
+  .sort-button {
+    margin-left: 10px;
+  }
+  
+  .add-list-button {
+    margin-left: -111px;
+  }
+  
+  .add-list-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .lists-container {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .list-wrapper {
+    margin-right: 10px;
+  }

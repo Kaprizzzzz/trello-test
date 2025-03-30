@@ -1,0 +1,25 @@
+.list-container {
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+  }
+  
+  .list-title {
+    margin-bottom: 20px;
+  }
+  
+  .delete-list-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: #982222;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .cards-container {
+    margin-top: 20px;
+  }
